@@ -6,8 +6,8 @@ const evenementen = new Evenementen()
 
 it('6. Intranet - refactoring', function() {
     intranet.homepage()
-    intranet.login('cbos@immune.it', 'q1w2e3r4T%')
+    intranet.login('mijn_emailadres', 'mijn_wachtwoord')
     intranet.clickMenuItem('Evenementen')
     evenementen.openEvenement('Workshop Cypress.io (Virtual Classroom) 2 avonden')
-    evenementen.checkCollegaAangemeld('Edwin Peters')
+    evenementen.checkCollegaAangemeld('Naam collega')
 })

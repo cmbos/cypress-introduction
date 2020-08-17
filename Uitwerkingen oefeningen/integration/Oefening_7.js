@@ -6,8 +6,8 @@ const smoelenboek = new Smoelenboek()
 
 it('7. Smoelenboek', function() {
     intranet.homepage()
-    intranet.login('cbos@immune.it', 'q1w2e3r4T%')
+    intranet.login('mijn_emailadres', 'mijn_wachtwoord')
     intranet.clickMenuItem('Smoelenboek')
     smoelenboek.openFoto('Christian Bos')
-    smoelenboek.checkGeboorteDatum('03 December 1982')
+    smoelenboek.checkGeboorteDatum('mijn_geboortedatum')
 })
